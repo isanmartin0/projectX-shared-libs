@@ -5,6 +5,6 @@ static int getNumber(int numero) {
     return numero + 1
 }
 
-String getName(String nombre) {
+static String getName(String nombre) {
     return nombre.toUpperCase();
 }
