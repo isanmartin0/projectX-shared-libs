@@ -9,6 +9,6 @@ def call() {
   def pom = readMavenPom()
   def v = pom.version
 
-  currentBuild.displayName = "${env.BRANCH_NAME}-${env.BUILD_NUMBER}"
+  echo "displayProjectName: ${env.BRANCH_NAME}-${env.BUILD_NUMBER}"
       
 }
