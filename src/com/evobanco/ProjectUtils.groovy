@@ -8,3 +8,7 @@ static int getNumber(int numero) {
 static String getName(String nombre) {
     return nombre.toUpperCase();
 }
+
+String getLibraryName() {
+    return "projectX-shared-libs"
+}
