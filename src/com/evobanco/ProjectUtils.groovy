@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 package com.evobanco
 
-def String getName(String name) {
+static def String getName(String name) {
     return "Name: " + name
 }
 
