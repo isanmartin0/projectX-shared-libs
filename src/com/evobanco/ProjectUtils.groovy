@@ -6,5 +6,5 @@ static int getNumber(int numero) {
 }
 
 static String getName(String nombre) {
-    return "Nombre: " + nombre
+    return nombre.toUpperCase();
 }
